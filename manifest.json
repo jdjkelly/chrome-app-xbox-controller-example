@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Hello world",
+	"version": "0.0.1",
+	"minimum_chrome_version": "23",
+  "permissions": ["usb"],
+  "optional_permissions": [ {"usbDevices": [{"vendorId": 1118, "productId": 1817}]}],
+	"app": {
+		"background": {
+		  "scripts": [
+		    "main.js"
+		  ]
+		}
+	}
+}
